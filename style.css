@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0px;
+    gap: 2rem;
+    background-color: #FFFFFF;
+}
+
+header .search {
+    display: flex;
+    gap: 5px;
+}
+
+.search input {
+    /* max-width: 469px; */
+    /* max-width: 469px; */
+    width: 469px;
+    /* background-color: red; */
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    background: #EDEDED 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.search button {
+    width: 120px;
+    height: 45px;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    background: #34CB2E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* ------------------------------------- */
+
+.fullbanner {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    background-image: url('./assets/img/FULLBANNER.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+section, footer {
+    margin: 0 auto;
+    max-width: 1250px;
+    /* padding: 44px 0px; */
+}
+
+/* ------------------------------------- */
+
+.vitrine-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 80px 0px;
+}
+
+.vitrine-main .title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.vitrine-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+}
+
+.card img {
+    margin: 25px;
+}
+
+.card .card-title {
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 32px;
+    width: 230px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.card .card-prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 32px;
+    line-height: 20px;
+    margin: 15px 0px;
+    gap: 4px;
+}
+
+.card-prices .card-price {
+    font-size: 13px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.card-prices .card-discount {
+    font-size: 21px;
+    font-weight: 900;
+    color: #34CB2E;
+}   
+
+.card-prices .card-installments {
+    font-size: 13px;
+    color: #999;
+}
+
+.card button {
+    max-width: 180px;
+    width: 100%;
+    height: 45px;
+    padding: 14px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #34CB2E;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* ------------------------------------- */
+
+.banners-container{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* ------------------------------------- */
+.info-container {
+    background-color: #000;
+    color: #fff;
+}
+
+.info-container section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 46px;
+}      
+
+.info-container section span {
+    font-size: 11.5px;
+    line-height: 22px;
+}
+
+/* ------------------------------------- */
+
+.payment-container {
+    background-color: #fff;
+}
+
+.payment-container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 8px;
+}
+
+.payment-container section p{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #34CB2E;
+}
