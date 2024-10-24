@@ -1,0 +1,68 @@
+{
+    "produtos": [
+      {
+        "image": "../assets/img/b2b.png",
+        "title": "Produto do teste de desenvolvedor front-end da agência Agrada",
+        "prices": {
+          "originalPrice": "R$ 2.049,00",
+          "discountedPrice": "R$ 1.655,90",
+          "installments": "Ou 10x de R$179,90 sem juros"
+        }
+      },
+      {
+        "image": "../assets/img/b2b.png",
+        "title": "Produto do teste de desenvolvedor front-end da agência Agrada",
+        "prices": {
+          "originalPrice": "R$ 2.049,00",
+          "discountedPrice": "R$ 1.655,90",
+          "installments": "Ou 10x de R$179,90 sem juros"
+        }
+      },
+      {
+        "image": "../assets/img/b2b.png",
+        "title": "Produto do teste de desenvolvedor front-end da agência Agrada",
+        "prices": {
+          "originalPrice": "R$ 2.049,00",
+          "discountedPrice": "R$ 1.655,90",
+          "installments": "Ou 10x de R$179,90 sem juros"
+        }
+      },
+      {
+        "image": "../assets/img/b2b.png",
+        "title": "Produto do teste de desenvolvedor front-end da agência Agrada",
+        "prices": {
+          "originalPrice": "R$ 2.049,00",
+          "discountedPrice": "R$ 1.655,90",
+          "installments": "Ou 10x de R$179,90 sem juros"
+        }
+      },
+      {
+        "image": "../assets/img/b2b.png",
+        "title": "Produto do teste de desenvolvedor front-end da agência Agrada",
+        "prices": {
+          "originalPrice": "R$ 2.049,00",
+          "discountedPrice": "R$ 1.655,90",
+          "installments": "Ou 10x de R$179,90 sem juros"
+        }
+      },
+      {
+        "image": "../assets/img/b2b.png",
+        "title": "Produto do teste de desenvolvedor front-end da agência Agrada",
+        "prices": {
+          "originalPrice": "R$ 2.049,00",
+          "discountedPrice": "R$ 1.655,90",
+          "installments": "Ou 10x de R$179,90 sem juros"
+        }
+      },
+      {
+        "image": "../assets/img/b2b.png",
+        "title": "Produto do teste de desenvolvedor front-end da agência Agrada",
+        "prices": {
+          "originalPrice": "R$ 2.049,00",
+          "discountedPrice": "R$ 1.655,90",
+          "installments": "Ou 10x de R$179,90 sem juros"
+        }
+      }
+    ]
+}
+  

@@ -5,13 +5,23 @@ body {
     font-family: sans-serif;
 }
 
+header,
+section,
+footer {
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.header-container {
+    background-color: #FFFFFF;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2% 0px;
     gap: 2rem;
-    background-color: #FFFFFF;
 }
 
 header .search {
@@ -20,14 +30,11 @@ header .search {
 }
 
 .search input {
-    /* max-width: 469px; */
-    /* max-width: 469px; */
-    width: 469px;
-    /* background-color: red; */
+    width: 450px;
     padding: 14px;
     border: none;
     border-radius: 5px;
-    background: #EDEDED 0% 0% no-repeat padding-box;
+    background: #EDEDED;
     opacity: 1;
 }
 
@@ -40,7 +47,7 @@ header .search {
     font-size: 14px;
     font-weight: bold;
     color: #000000;
-    background: #34CB2E 0% 0% no-repeat padding-box;
+    background: #34CB2E;
     opacity: 1;
     cursor: pointer;
 }
@@ -71,12 +78,6 @@ header .menu {
     background-image: url('./assets/img/FULLBANNER.png');
     background-repeat: no-repeat;
     background-size: cover;
-} 
-
-section, footer {
-    margin: 0 auto;
-    max-width: 1250px;
-    /* padding: 44px 0px; */
 }
 
 /* ------------------------------------- */
@@ -88,6 +89,7 @@ section, footer {
     justify-content: center;
     gap: 10px;
     padding: 80px 0px;
+    width: 100%;
 }
 
 .vitrine-main .title {
@@ -95,7 +97,7 @@ section, footer {
     font-weight: 800;
 }
 
-.vitrine-container .card{
+.vitrine-container .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,6 +105,56 @@ section, footer {
     border-radius: 10px;
     border: 1px solid #DDDDDD;
 }
+
+/* ------------------------------------- */
+
+swiper-container {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 1250px;
+    height: 100%;
+}
+
+.swiper {
+    width: 1250px;
+    height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.swiper-button-prev {
+    margin-left: -8px;
+}
+
+.swiper-button-next {
+    margin-right: -8px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 18px;
+}
+
+/* ------------------------------------- */
 
 .card img {
     margin: 25px;
@@ -140,7 +192,7 @@ section, footer {
     font-size: 21px;
     font-weight: 900;
     color: #34CB2E;
-}   
+}
 
 .card-prices .card-installments {
     font-size: 13px;
@@ -165,7 +217,7 @@ section, footer {
 
 /* ------------------------------------- */
 
-.banners-container{
+.banners-container {
     display: flex;
     gap: 10px;
 }
@@ -183,7 +235,7 @@ section, footer {
     justify-content: center;
     padding: 20px 0px;
     gap: 46px;
-}      
+}
 
 .info-container section span {
     font-size: 11.5px;
@@ -205,7 +257,7 @@ section, footer {
     gap: 8px;
 }
 
-.payment-container section p{
+.payment-container section p {
     margin: 0px;
     font-size: 15px;
     font-weight: 700;
