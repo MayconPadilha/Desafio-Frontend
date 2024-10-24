@@ -7,7 +7,7 @@ var swiperInstance;
 
 async function carregarProjetos() {
     try {
-        const response = await fetch('http://127.0.0.1:5500/data/produtos.json');
+        const response = await fetch('https://mayconpadilha.github.io/Desafio-Frontend/data/produtos.json');
         const dados = await response.json();
         produtos = dados.produtos;
         gerarListaProjetos(produtos);
