@@ -20,19 +20,32 @@
                 <button>Buscar</button>
             </div>
             <div class="menu">
-                <div class="menu-item">
+                <div class="menu-item" onclick="toggleDropdown(this)">
                     <img src="./assets/img/ÍCONE_LOGIN.svg" alt="">
                     <span>Faça Login</span>
+                    <div class="dropdown-content">
+                        <div class="login">
+                            <a href="#">Faça o login</a>
+                            <span>ou</span>
+                            <a href="#">Cadastre-se</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="menu-item">
+                <div class="menu-item" onclick="toggleDropdown(this)">
                     <img src="./assets/img/ÍCONE_ATENDIMENTO.svg" alt="">
                     <span>Atendimento</span>
+                    <div class="dropdown-content">
+                        <div class="phone">
+                            <span>Somos os verdadeiros especialistas em<br>e-commerce</span>
+                            <button>(51) 980.272.522</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="menu-item">
                     <img src="./assets/img/ÍCONE_CARRINHO.svg" alt="">
                     <span>Carrinho</span>
                 </div>
-            </div>
+            </div>                       
         </header>
     </div>
 
