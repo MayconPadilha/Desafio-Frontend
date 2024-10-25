@@ -45,7 +45,12 @@
                     <img src="./assets/img/ÍCONE_CARRINHO.svg" alt="">
                     <span>Carrinho</span>
                 </div>
-            </div>                       
+            </div>
+            <div class="menu-hamburguer" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>                      
         </header>
     </div>
 
@@ -55,79 +60,86 @@
         <p class="title">Vitrine de produtos da Agrada Digital</p>
         <div class="vitrine-container">
 
-            <swiper-container class="mySwiper" navigation="true" space-between="10" slides-per-view="4">
-
-                <swiper-slide>
-                    <div class="card">
-                        <img src="./assets/img/b2b.png" alt="">
-                        <div class="card-title">
-                            Produto do teste de desenvolvedor front-end da agência Agrada
+            <div class="swiper mySwiperHTML">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="./assets/img/b2b.png" alt="">
+                            <div class="card-title">
+                                Produto do teste de desenvolvedor front-end da agência Agrada
+                            </div>
+                            <div class="card-prices">
+                                <span class="card-price">R$ 2.049,00</span>
+                                <span class="card-discount">R$ 1.655,90</span>
+                                <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
+                            </div>
+                            <button>Comprar</button>
                         </div>
-                        <div class="card-prices">
-                            <span class="card-price">R$ 2.049,00</span>
-                            <span class="card-discount">R$ 1.655,90</span>
-                            <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
-                        </div>
-                        <button>Comprar</button>
                     </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card">
-                        <img src="./assets/img/b2c.png" alt="">
-                        <div class="card-title">
-                            Produto do teste de desenvolvedor front-end da agência Agrada
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="./assets/img/b2c.png" alt="">
+                            <div class="card-title">
+                                Produto do teste de desenvolvedor front-end da agência Agrada
+                            </div>
+                            <div class="card-prices">
+                                <span class="card-price">R$ 2.049,00</span>
+                                <span class="card-discount">R$ 1.655,90</span>
+                                <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
+                            </div>
+                            <button>Comprar</button>
                         </div>
-                        <div class="card-prices">
-                            <span class="card-price">R$ 2.049,00</span>
-                            <span class="card-discount">R$ 1.655,90</span>
-                            <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
-                        </div>
-                        <button>Comprar</button>
                     </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card">
-                        <img src="./assets/img/hub.png" alt="">
-                        <div class="card-title">
-                            Produto do teste de desenvolvedor front-end da agência Agrada
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="./assets/img/hub.png" alt="">
+                            <div class="card-title">
+                                Produto do teste de desenvolvedor front-end da agência Agrada
+                            </div>
+                            <div class="card-prices">
+                                <span class="card-price">R$ 2.049,00</span>
+                                <span class="card-discount">R$ 1.655,90</span>
+                                <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
+                            </div>
+                            <button>Comprar</button>
                         </div>
-                        <div class="card-prices">
-                            <span class="card-price">R$ 2.049,00</span>
-                            <span class="card-discount">R$ 1.655,90</span>
-                            <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
-                        </div>
-                        <button>Comprar</button>
                     </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card">
-                        <img src="./assets/img/marketplace.png" alt="">
-                        <div class="card-title">
-                            Produto do teste de desenvolvedor front-end da agência Agrada
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="./assets/img/marketplace.png" alt="">
+                            <div class="card-title">
+                                Produto do teste de desenvolvedor front-end da agência Agrada
+                            </div>
+                            <div class="card-prices">
+                                <span class="card-price">R$ 2.049,00</span>
+                                <span class="card-discount">R$ 1.655,90</span>
+                                <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
+                            </div>
+                            <button>Comprar</button>
                         </div>
-                        <div class="card-prices">
-                            <span class="card-price">R$ 2.049,00</span>
-                            <span class="card-discount">R$ 1.655,90</span>
-                            <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
-                        </div>
-                        <button>Comprar</button>
                     </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card">
-                        <img src="./assets/img/Grupo_3.png" alt="">
-                        <div class="card-title">
-                            Produto do teste de desenvolvedor front-end da agência Agrada
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="./assets/img/Grupo_3.png" alt="">
+                            <div class="card-title">
+                                Produto do teste de desenvolvedor front-end da agência Agrada
+                            </div>
+                            <div class="card-prices">
+                                <span class="card-price">R$ 2.049,00</span>
+                                <span class="card-discount">R$ 1.655,90</span>
+                                <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
+                            </div>
+                            <button>Comprar</button>
                         </div>
-                        <div class="card-prices">
-                            <span class="card-price">R$ 2.049,00</span>
-                            <span class="card-discount">R$ 1.655,90</span>
-                            <span class="card-installments">Ou 10x de R$179,90 sem juros</span>
-                        </div>
-                        <button>Comprar</button>
                     </div>
-                </swiper-slide>
-            </swiper-container>
+                </div>
+                <div class="swiper-button-next" id="swiper-button-next-html">
+                    <img src="./assets/img/ÍCONE_SETA_DIREITA.svg" alt="">
+                </div>
+                <div class="swiper-button-prev" id="swiper-button-prev-html">
+                    <img src="./assets/img/ÍCONE_SETA_ESQUERDA.svg" alt="">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -140,9 +152,13 @@
         <p class="title">Vitrine de produtos da Agrada Digital</p>
         <div class="vitrine-container">
             <div class="swiper mySwiperJS">
-                <div class="swiper-wrapper"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-wrapper" id="swiper-wrapper-js"></div>
+                <div class="swiper-button-next" id="swiper-button-next-js">
+                    <img src="./assets/img/ÍCONE_SETA_DIREITA.svg" alt="">
+                </div>
+                <div class="swiper-button-prev" id="swiper-button-prev-js">
+                    <img src="./assets/img/ÍCONE_SETA_ESQUERDA.svg" alt="">
+                </div>
             </div>
         </div>
     </section>

@@ -26,3 +26,11 @@ window.onclick = function(event) {
         });
     }
 }
+
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    const hamburguer = document.querySelector('.menu-hamburguer');
+    
+    menu.classList.toggle('active');
+    hamburguer.classList.toggle('open');
+}

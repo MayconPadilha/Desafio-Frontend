@@ -17,7 +17,7 @@ async function carregarProjetos() {
 }
 
 function gerarListaProjetos(itens) {
-    const swiperWrapper = document.querySelector('.swiper-wrapper');
+    const swiperWrapper = document.getElementById('swiper-wrapper-js');
     swiperWrapper.innerHTML = '';
 
     itens.forEach(item => {
@@ -66,11 +66,55 @@ function gerarListaProjetos(itens) {
     });
 
     swiperInstance = new Swiper(".mySwiperJS", {
-        slidesPerView: 4,
-        spaceBetween: 10,
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: "#swiper-button-next-js",
+            prevEl: "#swiper-button-prev-js",
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            480: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 10
+            },
+    
+            1024:{
+                slidesPerView: 4,
+                spaceBetween: 10
+            }
         }
     });
 }
+
+var swiper = new Swiper(".mySwiperHTML", {
+    navigation: {
+        nextEl: "#swiper-button-next-html",
+        prevEl: "#swiper-button-prev-html",
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 10
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 10
+        },
+
+        1024:{
+            slidesPerView: 4,
+            spaceBetween: 10
+        }
+    }
+});
+
