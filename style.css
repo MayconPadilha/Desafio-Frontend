@@ -163,6 +163,8 @@ header .menu {
 .swiper {
     width: 1250px;
     height: 100%;
+    padding: 0px 20px;
+    left: -20px;
 }
 
 .swiper-button-next,
@@ -170,8 +172,8 @@ header .menu {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 35px;
-    height: 25px;
+    width: 30px;
+    height: 20px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
